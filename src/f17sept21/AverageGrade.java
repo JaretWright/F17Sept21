@@ -20,6 +20,7 @@ public class AverageGrade {
         int grade3 = keyboard.nextInt();
         
         double avg = getAverage(grade1, grade2, grade3);
+        
         System.out.printf("The average is %.1f%% %n", avg);
     }
     
